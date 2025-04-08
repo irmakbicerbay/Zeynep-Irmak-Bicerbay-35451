@@ -1,39 +1,19 @@
-print("irmak")
-x = 5
-y = "irmak"
-z = 0.01
-x = 10
+# Q1: Print your name on the screen
 
-fruits = ["apple", "banana", "cherry"]
+# Q2: Create three variables: an integer, a string, and a float
 
-for fruit in fruits:
-    print(fruit)
+#3-Display the type of the variable you created
 
-if x > 5:
-    print("x is greater than 5!")
-  
-carbrands = ["audi" , "bmw" , "mercedes"]
-x, y, z, = carbrands
-print(x)
-print(type(x))
-print(type(carbrands))
-for x in carbrands:
-  print(x)
-student1 = {
-  "name": "irmak",
-  "surname": "bicerbay",
-  "index_number": 35451,
-  }
-print(student1)
+#4-Use if to check if a number is equal to 5. If yes, print "Five"
 
-class Student:
-    def __init__(self, name, grades):
-        self.name = name
-        self.grades = grades
+#5-Create a list called carbrands with any 3 carbrand names. Then print the second carbrand
 
-    def show(self):
-        print(self.name, self.grades)
+#6-Use an if statement to check if a variable x is equal to 50. If it is, print "Yes", otherwise print "No"
 
-student1 = Student("Irmak", {"oop": 5, "math": 100})
-student1.show()
-  
+#7-Make a dictionary called student with keys: "name", "age", and "grade". Assign values and print the age
+
+#8-Add a new item "ford" to the carbrand list from question 5 and print the updated list
+
+#9-Update the "grade" in the student dictionary to "A" and print the full dictionary
+
+#10-Create a class Person with an attribute name. Add a method greet() that prints "Hello, " + name. Create an object and call greet()
