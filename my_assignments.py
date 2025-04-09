@@ -16,4 +16,4 @@
 
 #9-Update the "grade" in the student dictionary to "A" and print the full dictionary
 
-#10-Create a class Person with an attribute name. Add a method greet() that prints "Hello, " + name. Create an object and call greet()
+# Q10: Create a class called Animal with one attribute called type. Set it to "Cat" by default. Then create an object and print the type.
