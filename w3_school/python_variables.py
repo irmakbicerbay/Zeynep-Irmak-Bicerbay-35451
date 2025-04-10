@@ -93,3 +93,64 @@ x = "Python is awesome"
 print(x)
 
 #ex15
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+#ex16
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+#ex17
+x = 5
+y = 10
+print(x + y)
+
+#ex18
+x = 5
+y = "John"
+print(x, y)
+
+#ex19
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+#ex20
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+#ex21
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+#ex22
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+#
