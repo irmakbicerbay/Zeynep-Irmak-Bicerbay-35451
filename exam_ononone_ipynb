@@ -1,0 +1,9 @@
+print("Irmak")
+y = 19
+print(y)
+print(type(y))
+
+student1: {
+"name" "irmak"
+"index number" 35451
+}
